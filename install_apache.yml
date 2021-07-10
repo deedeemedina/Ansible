@@ -7,7 +7,7 @@
   - name: install httpd package
     yum: 
       name: httpd
-      state: present
+      state: latest
 
   - name: ensure httpd is running
     service:
